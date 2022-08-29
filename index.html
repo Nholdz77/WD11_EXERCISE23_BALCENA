@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style2.css" />
+    <title>Exercise 23</title>
+  </head>
+
+  <body>
+    <h1 class="py-3">Rock Paper Scissor</h1>
+
+    <div class="main-container px-5">
+
+      <div class="row">
+        <div class="match-history col-2">
+          <h3>Match History</h3>
+          <hr />
+          <div id="ulDiv" style="width: 200px; height: 240px">
+            <ul id="match-result"></ul>
+          </div>
+        </div>
+
+        <div class="col-10">
+
+
+          <div id="gameContainer">
+            <div id="gamebox" class="row">
+
+              <div id="userbox1" class="col-3">
+                <h4>1Player:  <span id="playerbox"></span></h4>
+                <div class="imgbox">
+                  <img id="imageOne" src="./assets/img/6.png" alt="" style="margin: auto;"/>
+                </div>
+
+                <div class="player1Score">
+                  <h4 style="margin-left: 10px">
+                    1Player Score: <span id="playerOneScore"></span>
+                  </h4>
+                </div>
+              </div>
+
+              <div class="versusDiv col-6" style="display: block">
+                <div class="game-match pb-5">
+                  <select name="" id="select-match">
+                    <option value="0">Game Series</option>
+                    <option value="Three">Best of 3 Games</option>
+                    <option value="Five">Best of 5 Games</option>
+                    <option value="Seven">Best of 7 Games</option>
+                  </select>
+                </div>
+
+                <h1>VS</h1>
+
+                <div id="initial-result">
+                  <h2 id="gameResult">Result</h2>
+                </div>
+
+                <div id="final-result">
+                  <h2 id="gameResult2"></h2>
+                </div>
+              </div>
+
+              <div id="userbox2" class="col-3">
+                <h4>2Player:  <span id="playerbox2"></span></h4>
+                <div class="imgbox">
+                  <img id="imageTwo" src="./assets/img/5.png" alt="" style="margin: auto;" />
+                </div>
+
+                <div class="player2Score">
+                  <h4 style="margin-right: 10px">
+                    2Player Score: <span id="playerTwoScore"></span>
+                  </h4>
+                </div>
+              </div>
+
+            </div>
+
+            
+            <div class="last-btn">
+              <div class="playerScores">
+                  <button class="play-Btn" id="paperBtn" onclick="selectBtn()">Paper</button>
+                  <button class="play-Btn" id="rockBtn" onclick="selectBtn()">Rock</button>
+                  <button class="play-Btn" id="scissorBtn" onclick="selectBtn()">scissor</button>
+              </div>
+              <div class="clickplay pb-3">
+                <button id="clickPlay">Click to Play</button>
+                <button id="resetBtn">Reset</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

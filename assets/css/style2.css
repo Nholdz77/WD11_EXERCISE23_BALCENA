@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+img {
+  width: 100%;
+  height: 200px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("/assets/img/10.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-image: url("assets/img/2.jpg"); */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: black;
+  font-weight: bold;
+  background: transparent;
+}
+button:hover{
+  background:#3ab8f1;
+  color: #fff;
+}
+.button-active{
+  background:#3ab8f1;
+  color: #fff;
+}
+
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-inline: 20px;
+}
+.main-container{
+  
+  border-top: 5px solid black;
+  margin-inline: 25px;
+}
+#match-result {
+  list-style: none;
+  list-style-type: none;
+}
+/* .imgbox{
+  border: 3px solid black;
+} */
+#userbox1 {
+  padding-top: 25px;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+#userbox2 {
+  padding-top: 25px;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.versusDiv{
+padding-top: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+.versus {
+  padding-top: 15px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.game-match{
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#select-match{
+  font-size:larger;
+  font-weight: bolder;
+  background: transparent;
+  border: none;
+  height: 40px;
+}
+#initial-result, #final-result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playerScores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 25px;
+}
+.clickplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+#ulDiv{
+  overflow: hidden;
+  /* overflow:scroll; */
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+}
+#ulDiv ul{
+  list-style: none;
+  padding-left: 0;
+  text-align: start;
+}
+/* #initial-result, #final-result{
+  border: 2px solid black;
+  border-radius: 5px;
+} */
+/* #ulDiv {
+  background: yellowgreen;
+  overflow: scroll;
+}
+#userbox1{
+  display: flex;
+  flex-direction: column;
+}
+#userbox{
+  display: flex;
+  flex-direction: column;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.match-history {
+  justify-content: start;
+  align-items: start;
+
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.match-history ul {
+  padding-left: 10px;
+}
+#gameContainer {
+  
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+  border: 5px solid black;
+}
+.versusDiv {
+  width: 300px;
+  height: 200px;
+}
+#gamebox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.versus {
+  padding-top: 15px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.initial-result {
+  width: 300px;
+  overflow-x: hidden;
+}
+.final-result {
+  width: 300px;
+  overflow-x: hidden;
+}
+
+.imgbox {
+  width: 200px;
+  height: 150px;
+  border: 5px solid black;
+}
+
+.group-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.last-btn {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.game-match {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+#select-match {
+  width: 200px;
+  height: 50px;
+  border: 3px solid black;
+  text-align: center;
+}
+.playerScores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.player1Score {
+  width: 200px;
+  display: flex;
+  justify-content: start;
+  background: white;
+  border-radius: 15px;
+}
+.player2Score {
+  width: 200px;
+  display: flex;
+  justify-content: start;
+  background: white;
+  border-radius: 15px;
+} */
