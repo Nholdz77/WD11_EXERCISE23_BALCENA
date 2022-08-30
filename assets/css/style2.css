@@ -6,11 +6,12 @@ img {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("/assets/img/10.webp");
+  background: url("/assets/img/10.jpg");
+  /* background: url("/assets/img/10.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-image: url("assets/img/2.jpg"); */
+  
 }
 
 button {
